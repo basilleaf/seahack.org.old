@@ -2,6 +2,7 @@
 <html <?php language_attributes(); ?>>
 
 <head>
+
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
 <meta charset="<?php bloginfo('charset'); ?>">
@@ -41,9 +42,9 @@
         margin:0; padding:0;
         margin-top:5px;
         display:block;
-    }   
+    }
 </style>
-<![endif]-->  
+<![endif]-->
 
 <!--[if IE 9]>
 <style type="text/css">
@@ -53,11 +54,11 @@
 .cats_tags {
    margin:0; padding:0;
    position: relative;
-   top: 192px; 
+   top: 192px;
    right: 8px;
    text-align:right;
 }
-        
+
 h2.cats {
         margin:0; padding:0;
 }
@@ -69,7 +70,7 @@ h2.cats {
         margin:0; padding:0;
         display:block;
     }
-   
+
 </style>
 <![endif]-->
 
@@ -116,7 +117,6 @@ h2.cats {
             <a class="submit-hack" href="http://spacehack.org/submit">Submit a new Project</a>
         </p -->
 
-
     	<div class="nav">
             <div>&nbsp;</div>
     	    <ul>
@@ -128,4 +128,7 @@ h2.cats {
         </div>
         <!-- /.nav -->
     </div>
+    <div class="mobile_header"></div>
+
+
     <!-- /.header -->

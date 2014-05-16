@@ -495,6 +495,21 @@ h1.archive-title {
 /** mobile for single page (see spacehack_excep**/
 @media only screen and (max-device-width: 480px) {
 
+    .header {
+        border-top:0;
+    }
+    .header .description {
+        margin-left:0;
+    }
+
+
+    .mobile_header {
+        background-color: #594F4F;
+        width:100%;
+        height:35px;
+        margin-top:140px;
+        margin-bottom:-50px;
+    }
 
     .entry-metadata {
         display:none;
@@ -510,9 +525,6 @@ h1.archive-title {
 
     }
 
-    .header .description {
-        margin-left:0;
-    }
     /** Project Page Content */
     body.projectpage .post .entry-header {
         width: 100%;
