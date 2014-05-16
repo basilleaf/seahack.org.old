@@ -29,6 +29,10 @@ query_posts('status=current');   // only current hacks on the homepage
 
             <?php the_excerpt(); ?>
 
+        <p class="respond">
+            <a href="'.$get_permalink.'" rel="bookmark" title="">Read more &#187;</a>
+        </p>
+
         </div><!-- entry-summary -->
 
     </li> <!-- /.hentry -->
