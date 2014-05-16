@@ -2,7 +2,7 @@
 /*
 Plugin Name: Spacehack Excerpts
 Plugin URI: http://spacehack.org
-Description: hacks the_excerpt() to include preview image with overlay clicky tags 
+Description: hacks the_excerpt() to include preview image with overlay clicky tags
 Version: 1.0
 Author: Lisa Ballard
 Author URI: http://about.me/lballard
@@ -21,47 +21,47 @@ function excerpt_with_clicky_tags() {
       $values = get_post_custom_values("previous_message");
       if (isset($values[0])) {
           $alert .= $values[0].'</div>';
-      } else { 
+      } else {
           $alert .= 'THE DEADLINE FOR THIS PROJECT HAS PASSED </div>';
-      } 
+      }
    }
-    
-    $img_html = '';      
+
+    $img_html = '';
 
     # Render the thumbnail:
     $values = get_post_custom_values("thumbnail");
-    if (isset($values[0])) { 
+    if (isset($values[0])) {
 
     $img_html .= '
-            
+
         <a href="'.get_permalink().'" rel="bookmark" title="'.get_the_title().'">
-        
+
             <img src="'.$values[0].'" alt="">
         </a>
         ';
-    } 
-    
+    }
+
    if ( function_exists('has_post_thumbnail') && has_post_thumbnail($post->ID) ) {
 
       $thumbnail = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );
-      
+
       $img_html .= '
           <p class="thumbnail">
           <a href="'.get_permalink().'" rel="bookmark" title="'.get_the_title().'">
-              <img class = "alignnone" src = "'.$thumbnail[0].'" width="310" height="150">
-          </a>     
+              <img class = "alignnone" src = "'.$thumbnail[0].'" width="310" height="150" alt="">
+          </a>
       </p>';
 
-   } 
+   }
 
-  // get clicky tags overlay 
+  // get clicky tags overlay
   $the_id = get_the_ID();
   $display_clicky_tags = wp_get_post_terms( $the_id, 'display_clicky_tags');
   $spacehack_status = wp_get_post_terms( $the_id, 'status'); // don't show clicky tags for archived projects
   $tags = "";
 
   $category = get_the_category();
-  
+
   // $featured_tags = wp_get_post_terms( $the_id, 'featured_tags');
   $custom_fields = get_post_custom($the_id);
   $featured_tags = array_reverse(explode(",",$custom_fields['Featured Tags'][0]));
@@ -75,7 +75,7 @@ function excerpt_with_clicky_tags() {
             <ul class = "tags">';
 
 
-    foreach ($featured_tags as $tag) { 
+    foreach ($featured_tags as $tag) {
 
           $tag = trim($tag);
 
@@ -87,7 +87,7 @@ function excerpt_with_clicky_tags() {
                           <div>'.$tag.'</div></a>
                       </li>';
             }
-          }  
+          }
 
     $tags .= '</ul></div> <!-- cats_tags -->';
 
