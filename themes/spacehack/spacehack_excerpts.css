@@ -72,7 +72,7 @@ div.nav {
 
 
 
-/** the category background colors **/
+/** the project title background colors **/
 h2.sh_competition, ul li.sh_competition {
    background: #44467e;
 }
@@ -141,7 +141,7 @@ h2.sh_open-source:hover {
 
 
 
-/* the category links */
+/* the project title links */
 h2.cats {
     float:right;
     margin:0; padding:0;
@@ -219,49 +219,43 @@ ul.tags li a div {
     .cats_tags {
        margin:0; padding:0;
        position: relative;
-       top: 440px;
+       top: 435px;
        right: 18px;
        text-align:right;
     }
 
-    .cats_tags ul {
-        margin:0; padding:0;
-        display:inline-block;
-    }
-
     .cats_tags ul li {
-        margin:0; padding:20px;
-        list-style-type: none;
 
     }
     .cats_tags ul:nth-child(2) { /** tags row **/
-        display:none;
         clear:both;
         margin:0; padding:0;
         margin-top:17px;
-        display:block;
         border:1px solid transparent;
+        font-size:700%;
     }
 
-    /* the category links */
+    ul.tags li a div {
+        font: 600 40px 'Lato', Helvetica, Trebuchet;
+        padding:7px;
+    }
+
+    /* the project title */
     h2.cats {
         float:right;
         margin:0; padding:0;
-        padding:0px 0px 3px 0px;
-        padding:13px;
+        padding:5px 10px 5px 10px;
     }
 
     h2.cats a, ul.cats li a div  {
-       font: 300 19px/27px 'Lato', Helvetica, Trebuchet;
-       font-size:130%;
-       padding:4px 4px;
+       font: 500 60px 'Lato', Helvetica, Trebuchet;
        color: white;
        letter-spacing: 1px;
        white-space: nowrap;
+
     }
 
     ul.tags li {
-        display:none;
     }
 
 }
