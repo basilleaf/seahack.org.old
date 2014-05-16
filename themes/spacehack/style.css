@@ -398,7 +398,7 @@ margin-bottom: 5px;
 .discussion .comment-author .avatar {
     position: absolute;
     left: 0;
-    _left: -32.5px;
+    left: -32.5px;
     top: 0;
 }
 
