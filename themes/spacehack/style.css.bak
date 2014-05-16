@@ -1,0 +1,468 @@
+/*
+Theme Name: Spacehack
+Theme URI: http://spacehack.org
+Description: Spacehack; a directory of ways to participate in space exploration.
+Version: 1.0
+Tags: spacehack
+Author: Ben Ward
+Author URI: http://benward.me
+License: GPL
+*/
+
+
+/** Developer Mode */
+body.devel {
+    margin-top: 0;
+    border-top: 30px solid #FCD337;
+}
+
+/** Base HTML */
+body {
+    color: #333;
+    background: #fff;
+    font: 75%/150% Helvetica, Arial, sans-serif;
+    width: 950px;
+    margin: 0 auto;
+    padding: 20px 35px 0 35px;
+}
+
+/* IE6 Centring */
+* html { text-align: center; }
+* html body { text-align: left; }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Helvetica, Arial, sans-serif;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: #F06;
+}
+
+h1 {
+    font-size: 220%;
+    line-height: 120%;
+    margin-bottom: 0.5em;
+}
+h2 {
+    font-size: 120%;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+h3 {
+    font-size: 100%;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+small {
+    font-size: 50%;
+}
+
+a {
+    color: #F06;
+    text-decoration: none;
+}
+a:hover, a:focus {
+    color: #333;
+    text-decoration: none;
+}
+
+/** Subscribe/Follow */
+.subscribe {
+    float: right;
+    color: #666;
+}
+
+.subscribe li { display: inline; }
+
+.subscribe a {
+    color: #666;
+    color: gray;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:11px;
+}
+.subscribe img {
+    display:inline-block;
+    position:relative;
+    top:5px;
+    left:0px;
+    width:17px; /* mailbox logo */
+    margin:0; padding:0;
+}
+ul.subscribe li:first-child img {
+    width:19px; /* twitter logo */
+}
+
+.subscribe a:hover,
+.subscribe a:focus {
+    color: #000;
+}
+.subscribe .feed {
+    margin-left: 3px;
+    padding: 0 0 0 19px;
+    background: url("images/rss.png") no-repeat 50% 50%;
+}
+.subscribe .twitter {
+    margin-left: 3px;
+    margin-right:20px;
+}
+.subscribe .submit-hack {
+    margin-left: 5px;
+}
+
+
+
+
+/** Page Header */
+
+.header {
+    clear: both;
+    border-top: 5px solid #000;
+    padding: 30px 0 10px 0;
+    zoom: 1; /* IE6/7 hasLayout fix */
+}
+.header h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 140%;
+    float: left;
+}
+.header a {
+     color: #333;
+}
+.header a:hover,
+.header a:focus {
+    color: #000;
+    text-decoration: underline;
+}
+.header .description {
+    color: #666;
+    text-transform: lowercase;
+    font-size:125%;
+}
+.header .description {
+    float: left;
+    margin-left: 20px;
+}
+.header .submit {
+    float: right;
+    line-height: 1.5em;
+    margin-top: -9px;
+    text-transform: none;
+    color: #ff0066;
+    padding-bottom: 8px;
+}
+.header .submit a:link,
+.header .submit a:visited {
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+}
+.header .submit a:hover {
+    color: #f06;
+    text-decoration: none;
+}
+.header .submit a::before {
+    content: "+ ";
+}
+
+/** Site Navigation */
+
+.header .nav {
+    clear: both;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 50px 0 4.4em 0;
+    zoom: 1; /* IE6 self-clearing nav */
+    background-color:black;
+    height:13px;
+
+
+}
+.header .nav ul {
+    background-color:white;
+    padding: 0;
+    margin: 0;
+    font-weight:500;
+    font-size:11px;
+    text-transform: lowercase;
+    height:13px;
+    display:inline-block;
+    float:right;
+}
+.header .nav div {
+    display:none;
+    margin:0; padding:0;
+    background-color: black;
+    height:13px;
+    width:415px;
+    float:left;
+
+}
+.header .nav ul li {
+    list-style: none;
+    float: right;
+    height:13px;
+    margin-left: 10px;
+    padding:0px;
+    text-align:center;
+    text-decoration: none;
+    display:inline-block;
+}
+.header .nav ul li a {
+    display: block;
+    position:relative;
+    top:-20px;
+    left:0px;
+    padding:0px 15px;
+    padding-bottom:15px;
+    z-index:99;
+    color: gray;
+}
+.header .nav ul li a:hover,
+.header .nav ul li a:focus {
+    color: black;
+    text-decoration:none;
+}
+.header .nav li.selected a {
+    color:black;
+}
+
+
+
+/** Shared Post Styles */
+.hentry p {
+    margin: 0 0 1em 0;
+}
+.hentry .respond a {
+    color: rgb(153, 204, 0);
+}
+.hentry ol, .hentry ul {
+    margin: 0.5em 0 1em 2em;
+}
+.hentry ul li {
+    list-style: disc;
+}
+.hentry ol li {
+    list-style: decimal;
+}
+.hentry strong {
+    font-weight: bold;
+}
+.hentry em {
+    font-style: italic;
+}
+
+
+
+.pagination {
+    clear: both;
+}
+
+/** Gridded Project Posts */
+.hfeed {
+    min-height: 1000px;
+}
+
+body.projectindex .hentry {
+    float: left;
+    width: 310px;
+    margin-right: 10px;
+    margin-bottom: 35px;
+}
+body.projectindex .hentry.last {
+    margin-right: 0;
+}
+
+body.projectindex .hentry .entry-title {
+    font-size: 100%;
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+    margin-bottom: 15px;
+}
+
+body.projectindex .hentry .entry-title a:hover {
+    text-decoration: none;
+}
+
+/** Project Page Content */
+body.projectpage .post .entry-header {
+    width: 50%;
+    float: right;
+    font-size: 120%;
+}
+body.projectpage .post .entry-header h1 {
+    font-size: 180%;
+}
+body.projectpage .post { 
+    margin-top:-20px; 
+}
+body.projectpage .post .entry-content {
+    width: 47%;
+    float: left;
+    margin-bottom: 20px;
+    font-size: 120%;
+    line-height: 150%;
+}
+body.projectpage .post .entry-content h2,
+body.projectpage .post .entry-header h2 {
+    font-size: 100%;
+}
+body.projectpage .post .entry-footer {
+    width: 47%;
+    float: left;
+}
+body.projectpage .discussion {
+    float: right;
+    width: 50%;
+}
+body.projectpage .entry-header h1 {
+    color: #F06;
+    margin-bottom: 30px;
+}
+body.projectpage .entry-content div.wp-caption {
+    background: none;
+    padding: 0; margin: 0; border: 0;
+    width: 100% !important;
+}
+
+body.projectpage .entry-content img.size-full,
+body.projectpage .entry-content div.wp-caption img,
+body.projectpage .entry-content p:first-child img {
+    width: 100% !important;
+    height: auto !important;
+}
+body.projectpage .entry-content div.wp-caption .wp-caption-text {
+    text-align: right;
+}
+
+body.projectpage .entry-metadata p {
+    color: #999;
+    margin-bottom: 0.2em;
+    font-size: 83%;
+}
+
+/** Updates */
+
+.discussion {
+    margin: 20px 0;
+}
+.discussion h2 {
+    font-size: 140%;
+    float: left;
+}
+
+.discussion p { 
+margin-bottom: 5px;
+}
+
+.discussion .comment-content {
+    clear: both;
+    padding: 0 0 9px 0;
+    background: transparent url(images/speech-bubble.png) 15px bottom no-repeat;
+    margin-bottom: 10px;
+}
+.discussion .comment-content .input {
+    border: 18px solid #ccc;
+    background: #fff;
+    padding: 7px;
+    margin: 0;
+}
+.discussion .comment-author {
+    position: relative;
+    padding-left: 65px;
+}
+.discussion .comment-author p {
+    margin-bottom: 10px;
+}
+.discussion .comment-author .avatar {
+    position: absolute;
+    left: 0;
+    _left: -32.5px;
+    top: 0;
+}
+
+/** Archives */
+
+h1.archive-title {
+    text-transform: capitalize;
+    margin:0; padding:0;
+    margin-top:-50px;
+    margin-bottom:40px;
+}
+
+/** Footer */
+.footer {
+    clear: both;
+    margin: 20px 0 0;
+    background: #fff;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+.footer .nav {
+    margin : 0;
+}
+.footer .nav li,
+.footer .nav form {
+    display: inline;
+}
+.footer .nav li {
+    border-right: 1px #999 solid;
+    padding-right: 1em;
+    margin-right: 0.6em;
+}
+.footer .nav li.search,
+.footer .nav li:last-child {
+    border: none;
+}
+.footer form {
+    border: 1px solid #000;
+    background: #000 url('images/search.gif') 3px center no-repeat;
+    padding: 1px 1px 1px 20px;
+}
+.footer form input.search {
+    background: #fff;
+    color: #000;
+    border: none;
+    margin: 0;
+    -webkit-appearance: textfield;
+}
+.footer form input.button {
+    display: none;
+}
+.footer p {
+    color: #999;
+}
+.footer a {
+    color: #666;
+}
+.footer a:hover,
+.footer a:focus {
+    color: #333;
+}
+.footer .credit {
+    color: #999;
+    margin-top: 20px;
+}
+.footer #idSiteMeterHREF {
+    padding-right: 0.5em;
+}
+
+/** Search */
+#search input {
+    background: transparent url('images/search.gif') 0px center no-repeat;
+    color: #666;
+    font-size: 0.9em;
+    margin: 0 0 0 10px;
+    padding: 2px 0 2px 17px;
+    width: 100px;
+}
+#search input {
+    border: 1px solid #222;
+}
+#search #s:hover,
+#search #s:focus {
+    color: #666;
+}
+.search-excerpt {
+    margin: 0;
+}

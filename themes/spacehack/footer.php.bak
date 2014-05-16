@@ -1,0 +1,30 @@
+<div class="footer">
+    <ul class="nav">
+        <?php if (!is_search()) {
+        		$search_text = "";
+        	}
+        	else {
+        	    $search_text = "$s";
+        	}
+        ?>
+        <li class="search">
+        	<form method="get" action="<?php bloginfo('url'); ?>/">
+        		<input class="search" type="search" name="s" value="<?php echo wp_specialchars($search_text, 1); ?>" placeholder="Search"><?php
+        		?><input class="button" type="submit" value="Search"><?php
+        	?></form>
+        </li>
+        <li><a href="/about">About Spacehack</a></li>
+        <li><a href="/guidelines">Community Guidelines</a></li>
+        <li><a href="mailto:ariel@spacehack.org">Contact</a></li>
+        <li><a href="/disclaimer">Disclaimer</a></li>
+    </ul>
+	<p class="credit">
+    	<script type="text/javascript" src="http://s40.sitemeter.com/js/counter.js?site=s40hmmmmm"></script>
+	    Powered by <a href="http://wordpress.org/">WordPress</a>.
+	</p>
+	<?php # echo "<p class='debugging'>" . get_num_queries() . " queries. " . timer_stop(1) . " seconds.</p>"  ?>
+	<?php wp_footer(); ?>
+</div>
+<!-- /.footer -->
+</body>
+</html>

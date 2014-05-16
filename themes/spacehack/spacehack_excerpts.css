@@ -1,0 +1,267 @@
+/*
+Spacehack Excerpts
+adds styling for the_excerpt() overlay - clickable tags
+and the previous project message overlay
+Author: Lisa Ballard
+Author URI: http://about.me/lballard
+License: GPL
+*/
+
+
+
+.previous_msg_index {
+  z-index: 1;
+  background:red;
+  color:white;
+  margin:0;
+  padding:0;
+  text-align: center;
+  position:relative;
+  top:-156px;
+  right:0px;
+
+}
+
+.previous_detail_wrapper {
+    margin-top:-27px;
+
+}
+
+.previous_msg_detail {
+  z-index: 1;
+  background:red;
+  font: 500 18px/27px 'Lato', Helvetica, Trebuchet;
+  color:white;
+  margin:0;
+  padding:0;
+  text-align: center;
+  position:relative;
+  top:216px;
+  right:0px;
+
+}
+
+div.nav {
+  white-space: nowrap;
+}
+.excerpt {
+  margin:0; padding:0;
+  margin-top:-75px;
+  margin-bottom:30px;
+}
+.projectindex .hentry p {
+  margin:0; padding:0;
+}
+
+.excerpt p:nth-child(3) { /** excerpt text **/
+  padding-top:5px;
+}
+.projectindex .hentry .respond {
+  margin:-22px 0px 25px 0px;
+  z-index:99;
+  height:30px;
+}
+.projectindex .hentry .respond a {
+  color:#66cc66;
+  /* color:#F06; */
+}
+.first {
+  clear:both;
+}
+
+
+
+
+/** the category background colors **/
+h2.sh_competition, ul li.sh_competition {
+   background: #44467e;
+}
+
+h2.sh_competition:hover {
+   background: #2b2c4f;
+}
+
+h2.sh_data-analysis, ul li.sh_data-analysis {
+   background: #547980;
+}
+
+h2.sh_data-analysis:hover {
+   background: #354c50;
+}
+
+h2.sh_observing, ul li.sh_observing {
+   background: #45ADA8;
+}
+
+h2.sh_observing:hover {
+   background: #2b716d;
+}
+h2.sh_open-source, ul li.sh_open-source {
+   background: #9DE0AD;
+}
+h2.sh_open-source:hover {
+   background: #64a871;
+}
+
+
+.nav ul li:hover,
+.nav ul li.selected {
+   background: #594f4f;
+}
+
+
+
+/** positioning the panel and the overlay links **/
+.cats_tags {
+   margin:0; padding:0;
+   position: relative;
+   top: 142px;
+   right: 8px;
+   text-align:right;
+}
+
+.cats_tags ul {
+    margin:0; padding:0;
+    display:inline-block;
+    float:right;
+}
+
+.cats_tags ul li {
+    margin:0; padding:0;
+    list-style-type: none;
+
+}
+.cats_tags ul:nth-child(2) { /** tags row **/
+    clear:both;
+    margin:0; padding:0;
+    margin-top:7px;
+    display:block;
+    border:1px solid transparent;
+}
+
+
+
+/* the category links */
+h2.cats {
+    float:right;
+    margin:0; padding:0;
+    padding:0px 0px 3px 0px;
+}
+h2.cats a, ul.cats li a div  {
+   font: 300 19px/27px 'Lato', Helvetica, Trebuchet;
+   padding:0px; margin:0px;
+   padding:4px 4px;
+   color: white;
+   letter-spacing: 1px;
+   white-space: nowrap;
+
+}
+
+
+/* the tag links */
+
+ul.tags li {
+   background: #1593A5;
+   background: #5bb3c0;
+   padding:0; margin:0;
+   float:right;
+   margin-left:5px;
+
+}
+ul.tags li:hover{
+   background: #336600;
+   background: #1593a5;
+   color: #666;
+
+
+}
+ul.tags li a div {
+   font: normal 12.5px 'Lato', Helvetica, Trebuchet;
+   color:white;
+   padding:0px 4px 2px 4px;
+   letter-spacing: 1px;
+   white-space: nowrap;
+}
+
+
+/** mobile **/
+@media only screen and (max-device-width: 480px) {
+
+    .nav {display:none; }
+
+    body {
+        font-size:200%;
+    }
+
+    body.projectindex .hentry {
+        font-size:45px;
+        width:100%;
+    }
+
+    .hentry img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom:10px;
+        height:461px;
+        width:950px;
+    }
+
+    body.projectindex ul.hfeed li.hentry:nth-child(3n) {
+        margin-right:0px
+    }
+
+    body.projectindex ul.hfeed li.hentry {
+        clear:both;
+    }
+
+    /** positioning the panel and the overlay links **/
+    .cats_tags {
+       margin:0; padding:0;
+       position: relative;
+       top: 440px;
+       right: 18px;
+       text-align:right;
+    }
+
+    .cats_tags ul {
+        margin:0; padding:0;
+        display:inline-block;
+    }
+
+    .cats_tags ul li {
+        margin:0; padding:20px;
+        list-style-type: none;
+
+    }
+    .cats_tags ul:nth-child(2) { /** tags row **/
+        display:none;
+        clear:both;
+        margin:0; padding:0;
+        margin-top:17px;
+        display:block;
+        border:1px solid transparent;
+    }
+
+    /* the category links */
+    h2.cats {
+        float:right;
+        margin:0; padding:0;
+        padding:0px 0px 3px 0px;
+        padding:13px;
+    }
+
+    h2.cats a, ul.cats li a div  {
+       font: 300 19px/27px 'Lato', Helvetica, Trebuchet;
+       font-size:130%;
+       padding:4px 4px;
+       color: white;
+       letter-spacing: 1px;
+       white-space: nowrap;
+    }
+
+    ul.tags li {
+        display:none;
+    }
+
+}

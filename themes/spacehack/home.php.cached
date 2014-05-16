@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<head>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<meta charset="UTF-8">
+<title>Spacehack</title>
+
+<!-- Site Meter -->
+<script type="text/javascript" src="http://s40.sitemeter.com/js/counter.js?site=s40hmmmmm">
+</script>
+<noscript>
+<a href="http://s40.sitemeter.com/stats.asp?site=s40hmmmmm" target="_top">
+<img src="http://s40.sitemeter.com/meter.asp?site=s40hmmmmm" alt="Site Meter" border="0"/></a>
+</noscript>
+<!-- Copyright (c)2009 Site Meter -->
+
+<!-- Data Profiles -->
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="profile" href="http://microformats.org/profiles/hcard">
+<link rel="profile" href="http://microformats.org/profiles/hatom">
+
+<!-- Stylesheets  -->
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/reset/reset-min.css">
+<link rel="stylesheet" type="text/css" href="http://spacehack.org/wp-content/themes/spacehack/style.css" media="screen, 
+projection">
+
+<!-- Syndication -->
+<link rel="alternate" type="application/rss+xml" title="Spacehack Feed" href="http://spacehack.org/feed">
+
+<!-- Decentralization -->
+<link rel="pingback" href="http://spacehack.org/xmlrpc.php">
+
+<!-- More -->
+<link rel='stylesheet' id='admin-bar-css'  href='http://spacehack.org/wp-includes/css/admin-bar.css?ver=3.4.1' 
+type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  
+href='http://spacehack.org/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.2' type='text/css' 
+media='all' />
+<script type='text/javascript' src='http://spacehack.org/wp-includes/js/jquery/jquery.js?ver=1.7.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://spacehack.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://spacehack.org/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.4.1" />
+<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+<style type="text/css" media="screen">
+	html { margin-top: 28px !important; }
+	* html body { margin-top: 28px !important; }
+</style>
+</head>
+
+<body class="org-spacehack projectindex">
+
+    <ul class="subscribe">
+        <li><a class="twitter" href="http://twitter.com/spacehack" title="Follow Spacehack on Twitter">follow 
+@spacehack</a></li>
+        <li><a class="feed" type="application/rss+xml" href="http://spacehack.org/feed">subscribe to projects</a></li>
+        <li>or <a href="http://spacehack.tumblr.com" class="feed">the blog</a></li>
+    </ul>
+    <!-- /.subscribe -->
+
+    <div class="header">
+        <h1>
+            <a href="http://spacehack.org/" title="Home">Spacehack</a>
+        </h1>
+        <p class="description">a directory of ways to participate in space exploration</p>
+
+        <p class="submit">
+            Created or know of a participatory space project?
+            <a class="submit-hack" href="http://spacehack.org/submit">Submit a new Project</a>
+        </p>
+
+    	<div class="nav">
+    	    <ul>
+    		<li><a class="home" href="http://spacehack.org/" title="Return to the the frontpage">Home</a></li>
+            <li><a href="/category/competition">Competition</a></li>
+    		<li><a href="/category/data-analysis">Data Analysis</a></li>
+<li><a href="/category/distributed-computing">Distributed Computing</a></li>
+    		<li><a href="/category/education">Education</a></li>
+    		<li><a href="/category/open-source">Open Source</a></li>
+    	    </ul>
+        </div>
+        <!-- /.nav -->
+    </div>
+    <!-- /.header -->
+
+      
+
+<div class="hfeed">
+<div class="hentry post-1783">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/citizens-in-space" rel="bookmark" title="Citizens In Space">Citizens In 
+Space</a></h1>
+
+<div class="entry-summary">
+    <p><a href="/project/citizens-in-space"><img class="alignnone size-full wp-image-1785" title="" 
+src="/wp-content/uploads/2012/07/citizensinspace_front.jpg" alt="competition / satellites" width="310" height="150" 
+/></a></p>
+<p>Ever dreamed of being able to launch something into space? Through Citizens In Space, you could be one step closer 
+to making that dream a reality. The project has an open call for experiments that could be launched on board a a 
+CubeSat, a type of small satellite. There&#8217;s room for approximately 100 of these small&#8230;</p>
+
+    <p class="respond"><a href="http://spacehack.org/project/citizens-in-space" rel="bookmark" title="">Check it out 
+&#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<div class="hentry post-1759">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/odysseus" rel="bookmark" title="Odysseus Contest">Odysseus Contest</a></h1>
+
+<div class="entry-summary">
+    <p><a href="/project/odysseus"><img class="alignnone size-full wp-image-1764" title="" 
+src="/wp-content/uploads/2012/07/odysseus_front.jpg" alt="competition / space exploration" width="310" height="150" 
+/></a></p>
+<p>A European contest to create an innovative and imaginative project exploring our solar system, a space mission, 
+space-based life support systems or the search for extraterrestrial life. The contest is open to all European students 
+between the ages of 14-18. The contest invites participants to form teams consisting of&#8230;</p>
+
+    <p class="respond"><a href="http://spacehack.org/project/odysseus" rel="bookmark" title="">Check it out 
+&#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<div class="hentry post-1749 last">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/mapper" rel="bookmark" title="Mapper">Mapper</a></h1>
+
+<div class="entry-summary">
+    <p><a href="/project/mapper"><img class="alignnone size-full wp-image-1791" title="" 
+src="/wp-content/uploads/2012/06/mapper_front3.jpg" alt="data analysis / extraterrestrial life" width="310" 
+height="150" /></a></p>
+<p>Help NASA find life on Mars by exploring microbialites in the lakes of British Columbia. Microbialites are rocks 
+that are influenced by microbes when they formed. Microbialites are rare on Earth today, but were the only forms of 
+life on Earth for the first billion years of its history. Scientists think that by learning more about&#8230;</p>
+
+    <p class="respond"><a href="http://spacehack.org/project/mapper" rel="bookmark" title="">Check it out 
+&#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<br clear='left'><div class="hentry post-1515">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/milky-way-project" rel="bookmark" title="Milky Way Project">Milky Way 
+Project</a></h1>
+
+<div class="entry-summary">
+    <p><a href="/project/milky-way-project"><img src="/wp-content/uploads/2012/04/milkywayproject2.jpg" alt="data 
+analysis / galaxies" title="" width="310" height="150" class="alignnone size-full wp-image-1666" /></a></p>
+<p>A project where you can help create a better understanding of how the Milky Way evolves over time and potentially 
+make new unexpected scientific discoveries. The Milky Way Project aims to sort and measure our galaxy and the 
+characteristics of its cold, dusty material that is so important to creating stars. </p>
+
+    <p class="respond"><a href="http://spacehack.org/project/milky-way-project" rel="bookmark" title="">Check it out 
+&#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<div class="hentry post-1565">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/einstein-at-home" rel="bookmark" title="Einstein@Home">Einstein@Home</a></h1>
+
+<div class="entry-summary">
+    <p><a href="/project/einstein-at-home"><img src="/wp-content/uploads/2012/04/einstein2.jpg" alt="distributed 
+computing / gravitational waves" width="310" height="150" /></a></p>
+<p>An effort to discover new neutron stars (massive stars that have collapsed under their own weight) and hopefully 
+directly detect one of Albert Einstein&#8217;s predictions for the first time: gravitational waves. Directly detecting 
+these ripples in the curvature of spacetime would open up a new window on the universe&#8230;</p>
+
+    <p class="respond"><a href="http://spacehack.org/project/einstein-at-home" rel="bookmark" title="">Check it out 
+&#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<div class="hentry post-1556 last">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/setilive" rel="bookmark" title="SETILive">SETILive</a></h1>
+
+<div class="entry-summary">
+    <p><a href="http://spacehack.org/project/setilive"><img class="alignnone size-full wp-image-1558" title="" 
+src="/wp-content/uploads/2012/03/setilive2.jpg" alt="data analysis / aliens" width="310" height="150" /></a></p>
+<p>Help search for life on another planet by analyzing potential alien signals coming from within our galaxy. SETILive 
+is taking the Search for Extraterrestrial Intelligence (SETI) directly to you by presenting radio frequency signals 
+LIVE from the SETI Institute&#8217;s Allen Telescope Array (ATA) while it&#8217;s pointed at stars&#8230;</p>
+
+    <p class="respond"><a href="http://spacehack.org/project/setilive" rel="bookmark" title="">Check it out 
+&#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<br clear='left'><div class="hentry post-1361">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/spacelog" rel="bookmark" title="Spacelog">Spacelog</a></h1>
+
+<div class="entry-summary">
+    <p><a href="http://spacehack.org/project/spacelog"><img 
+src="http://spacehack.org/wp-content/uploads/2011/09/spacelog4.jpg" alt="open source / mission control" title="" 
+width="310" height="150" class="alignnone size-full wp-image-1367" /></a></p>
+<p>A volunteer project to bring to life early manned space flight in a searchable, linkable format. In fifty years 
+since mankind began to explore in person the universe outside our home planet, there have been many memorable moments, 
+of beauty, of bravery, and occasionally of tragedy. For those who did not live through them it is&#8230;</p>
+
+    <p class="respond"><a href="http://spacehack.org/project/spacelog" rel="bookmark" title="">Check it out 
+&#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<div class="hentry post-1343">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/constellation" rel="bookmark" title="Constellation">Constellation</a></h1>
+
+<div class="entry-summary">
+    <p><a href="http://spacehack.org/project/constellation"><img class="alignnone size-full wp-image-1349" title="" 
+src="http://spacehack.org/wp-content/uploads/2011/09/constellation2.jpg" alt="distributed computing / aerospace 
+engineering" width="310" height="150" /></a></p>
+<p>A community that provides distributed computing power to aerospace research projects that might not otherwise have 
+access to supercomputers due to financial, administrative or bureaucratic reasons. By volunteering a percentage of your 
+computer’s unused operating power, your computer will focus on a variety of tasks from&#8230;</p>
+
+    <p class="respond"><a href="http://spacehack.org/project/constellation" rel="bookmark" title="">Check it out 
+&#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<div class="hentry post-1298 last">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/planet-hunters" rel="bookmark" title="Planet Hunters">Planet Hunters</a></h1>
+
+<div class="entry-summary">
+    <p><a href="/project/planet-hunters"><img src="/wp-content/uploads/2011/05/planethunters4.jpg" alt="data analysis / 
+exoplanets" /></a></p>
+<p>Help discover new exoplanets (aka extrasolar planets/planets orbiting other stars) by exploring space telescope data 
+from NASA&#8217;s Kepler mission. Planet Hunters is an online experiment that taps into the power of human pattern 
+recognition. The data consists of brightness measurements, or &#8220;light curves&#8221;, taken&#8230;</p>
+
+    <p class="respond"><a href="http://spacehack.org/project/planet-hunters" rel="bookmark" title="">Check it out 
+&#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<br clear='left'><div class="hentry post-73">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/galaxy-zoo" rel="bookmark" title="Galaxy Zoo">Galaxy Zoo</a></h1>
+
+<div class="entry-summary">
+    <p><a href="/project/galaxy-zoo"><img class="alignnone size-medium wp-image-80" title="" 
+src="/wp-content/uploads/2009/11/galaxyzoo4.jpg" alt="data analysis / galaxies" width="310" height="150" /></a></p>
+<p>To understand different types of galaxies and how galaxies form, Galaxy Zoo: Hubble needs your help classifying 
+images of hundreds of thousands of galaxies taken by NASA&#8217;s Hubble Space Telescope. If you&#8217;re quick, you 
+may even be the first person in history to see each of the galaxies you&#8217;re asked to classify.</p>
+
+    <p class="respond"><a href="http://spacehack.org/project/galaxy-zoo" rel="bookmark" title="">Check it out 
+&#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<div class="hentry post-180">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/nasa-world-wind" rel="bookmark" title="NASA World Wind">NASA World 
+Wind</a></h1>
+
+<div class="entry-summary">
+    <p><a href="/project/nasa-world-wind"><img class="alignnone size-medium wp-image-181" title="" 
+src="/wp-content/uploads/2008/11/worldwind2.jpg" alt="open source / visualization" width="310" height="150" /></a></p>
+<p>An open source 3D interactive world viewer created by NASA&#8217;s Learning Technologies project, released in 
+mid-2004. It is now developed by NASA staff and open source community developers. World Wind lets you zoom from 
+satellite altitude into any place on Earth. Leveraging Landsat satellite imagery and Shuttle Radar&#8230;</p>
+
+    <p class="respond"><a href="http://spacehack.org/project/nasa-world-wind" rel="bookmark" title="">Check it out 
+&#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<div class="hentry post-825 last">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/citizen-sky" rel="bookmark" title="Citizen Sky">Citizen Sky</a></h1>
+
+<div class="entry-summary">
+    <p><a href="/project/citizen-sky"><img class="alignnone size-full wp-image-1203" title="" 
+src="/wp-content/uploads/2010/09/citizensky2.jpg" alt="data analysis / stars" width="310" height="150" /></a></p>
+<p>Epsilon Aurigae  is a supergiant star located 2,000 light years from Earth that mysteriously gets eclipsed every 
+27.1 years by an equally large unknown dark object. The event has baffled scientists since 1821, but through the 
+Citizen Sky project, you&#8217;ll make observations and analyses that could decipher this scientific puzzle!</p>
+
+    <p class="respond"><a href="http://spacehack.org/project/citizen-sky" rel="bookmark" title="">Check it out 
+&#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<br clear='left'><div class="hentry post-782">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/tubesat-ps-kit" rel="bookmark" title="TubeSat Personal Satellite Kit">TubeSat 
+Personal Satellite Kit</a></h1>
+
+<div class="entry-summary">
+    <p><a href="/project/tubesat-ps-kit"><img class="alignnone size-full wp-image-785" 
+src="/wp-content/uploads/2009/09/tubesat2.jpg" alt="hardware / tubesats" width="310" height="150" /></a></p>
+<p>Build and launch your own satellite into space! One of the primary missions at Interorbital is to provide satellite 
+hardware and launch support for the experimental and commercial satellite community. Planet Earth has entered the age 
+of the Personal Satellite with the introduction of Interorbital&#8217;s TubeSat Personal&#8230;</p>
+
+    <p class="respond"><a href="http://spacehack.org/project/tubesat-ps-kit" rel="bookmark" title="">Check it out 
+&#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<div class="hentry post-1168">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/moonzoo" rel="bookmark" title="Moon Zoo">Moon Zoo</a></h1>
+
+<div class="entry-summary">
+    <p><a href="/project/moonzoo"><img src="/wp-content/uploads/2010/06/moonzoo2.jpg" alt="data analysis / lunar" 
+/></a></p>
+<p>A citizen science project around classifying high resolution images of craters and various parts of the lunar 
+surface taken by the Lunar Reconnaissance Orbiter Camera (LROC) via the Planetary Data System (PDS). From 
+billion-year-old volcanic eruptions and curving lava channels to recent asteroid impacts, the images you&#8230;</p>
+
+    <p class="respond"><a href="http://spacehack.org/project/moonzoo" rel="bookmark" title="">Check it out 
+&#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<div class="hentry post-1141 last">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/milkywayhome" rel="bookmark" title="MilkyWay@Home">MilkyWay@Home</a></h1>
+
+<div class="entry-summary">
+    <p><a href="/project/milkywayhome"><img class="size-medium wp-image-1155 alignnone" 
+src="/wp-content/uploads/2010/05/milkyway2.jpg" alt="distributed computing / galaxies" width="310" height="150" 
+/></a></p>
+<p>MilkyWay@home is a distributed computing project, harnessing the power of volunteered computers to create a highly 
+accurate 3D model of the Milky Way galaxy. The project uses data gathered by the Sloan Digital Sky Survey (SDSS) and 
+the Berkeley Open Infrastructure for Network Computing (BOINC) platform. By&#8230;</p>
+
+    <p class="respond"><a href="http://spacehack.org/project/milkywayhome" rel="bookmark" title="">Check it out 
+&#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<br clear='left'><div class="hentry post-976">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/solar-stormwatch" rel="bookmark" title="Solar Stormwatch">Solar 
+Stormwatch</a></h1>
+
+<div class="entry-summary">
+    <p><a href="/project/solar-stormwatch"><img class="size-full wp-image-1007" title="" 
+src="/wp-content/uploads/2010/03/solarstorm2.jpg" alt="data analysis / solar storms" width="310" height="150" 
+/></a></p>
+<p>Learn how to spot solar explosions and track them across space to Earth. Your work could make a new scientific 
+discovery as well as give astronauts an early warning if dangerous radiation is headed their way. You&#8217;ll also 
+find out how to pinpoint comets, particle strikes and optical effects, and how to make&#8230;</p>
+
+    <p class="respond"><a href="http://spacehack.org/project/solar-stormwatch" rel="bookmark" title="">Check it out 
+&#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<div class="hentry post-192">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/stardustathome" rel="bookmark" title="Stardust@Home">Stardust@Home</a></h1>
+
+<div class="entry-summary">
+    <p><span class="body_12"><a href="/project/stardustathome"><img class="alignnone size-medium wp-image-193" title="" 
+src="/wp-content/uploads/2008/11/stardustathome2.jpg" alt="data analysis / interstellar dust" width="310" height="150" 
+/></a></p>
+<p>Together, you and thousands of other Stardust@Home participants will find the first pristine interstellar dust 
+particles ever brought to Earth. Nestled within the Stardust spacecraft&#8217;s capsule in 2006 were precious particles 
+collected during its dramatic encounter with comet Wild 2 and something else, even rarer and no&#8230;</p>
+
+    <p class="respond"><a href="http://spacehack.org/project/stardustathome" rel="bookmark" title="">Check it out 
+&#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<div class="hentry post-203 last">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/radio-jove" rel="bookmark" title="Radio JOVE">Radio JOVE</a></h1>
+
+<div class="entry-summary">
+    <p><a href="/project/radio-jove"><img class="alignnone size-medium wp-image-286" title="" 
+src="/wp-content/uploads/2008/12/radiojove3.jpg" alt="education / radio astronomy" width="310" height="150" /></a></p>
+<p>The Radio JOVE project is a hands-on inquiry-based educational project that allows students, teachers and the 
+general public to learn about radio astronomy by building their own radio telescope from an inexpensive kit and/or 
+using remote radio telescopes through the internet. Radio JOVE students and amateur&#8230;</p>
+
+    <p class="respond"><a href="http://spacehack.org/project/radio-jove" rel="bookmark" title="">Check it out 
+&#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<br clear='left'><div class="hentry post-267">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/inspire-project" rel="bookmark" title="INSPIRE Project">INSPIRE 
+Project</a></h1>
+
+<div class="entry-summary">
+    <p><a href="http://spacehack.org/project/inspire-project"><img class="alignnone size-medium wp-image-295" title="" 
+src="http://spacehack.org/wp-content/uploads/2008/12/inspire3.jpg" alt="education / radio astronomy" width="310" 
+height="150" /></a></p>
+<p>A non-profit scientific, educational project whose objective is to bring the excitement of observing natural and 
+man-made radio waves to high school students. Underlying this objective is the conviction that science and technology 
+are the underpinnings of our modern society, and that only with an understanding of&#8230;</p>
+
+    <p class="respond"><a href="http://spacehack.org/project/inspire-project" rel="bookmark" title="">Check it out 
+&#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<div class="hentry post-198">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/setiathome" rel="bookmark" title="SETI@home">SETI@home</a></h1>
+
+<div class="entry-summary">
+    <p><a href="/project/setiathome"><img class="alignnone size-medium wp-image-199" title="" 
+src="/wp-content/uploads/2008/11/setiathome2.jpg" alt="distributed computing / extraterrestrials" width="310" 
+height="150" /></a></p>
+<p>In 1995, David Gedye proposed doing radio SETI using a virtual supercomputer composed of large numbers of 
+Internet-connected computers, and he organized the SETI@home project to explore this idea. SETI (Search for 
+Extraterrestrial Intelligence) is a scientific area whose goal is to detect intelligent life outside Earth. 
+One&#8230;</p>
+
+    <p class="respond"><a href="http://spacehack.org/project/setiathome" rel="bookmark" title="">Check it out 
+&#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<div class="hentry post-541 last">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/global-telescope-network" rel="bookmark" title="Global Telescope 
+Network">Global Telescope Network</a></h1>
+
+<div class="entry-summary">
+    <p><a href="/project/global-telescope-network"><img class="alignnone size-medium wp-image-647" 
+src="/wp-content/uploads/2009/03/gtn2.jpg" alt="data analysis / astrophysics" width="310" height="150" /></a></p>
+<p>A project that allows individuals or groups to dedicate some portion of their time to analyzing data taken with 
+other people&#8217;s telescopes. The Global Telescope Network is a network of small telescopes around the world for the 
+purpose of supporting the science of NASA and  ESA high energy astrophysics missions&#8230;</p>
+
+    <p class="respond"><a href="http://spacehack.org/project/global-telescope-network" rel="bookmark" title="">Check it 
+out &#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<br clear='left'><div class="hentry post-174">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/my-nasa-data" rel="bookmark" title="My NASA Data">My NASA Data</a></h1>
+
+<div class="entry-summary">
+    <p><a href="/project/my-nasa-data"><img class="alignnone size-medium wp-image-175" title="" 
+src="/wp-content/uploads/2008/11/mynasadata2.jpg" alt="education / earth" width="310" height="150" /></a></p>
+<p>Mentoring and inquirY using NASA Data for Atmospheric and earth science for Teachers and Amateurs (MY NASA DATA) is 
+a project to enable K-12 teachers and students, as well as citizen scientists, to explore the large volumes of data 
+that NASA collects about the Earth from space. A main goal of the MY NASA DATA project is to remove&#8230;</p>
+
+    <p class="respond"><a href="http://spacehack.org/project/my-nasa-data" rel="bookmark" title="">Check it out 
+&#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<div class="hentry post-752">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/fap" rel="bookmark" title="Flight Analogs Project">Flight Analogs 
+Project</a></h1>
+
+<div class="entry-summary">
+    <p><a href="http://spacehack.org/project/fap"><img class="alignnone size-full wp-image-768" title="" 
+src="http://spacehack.org/wp-content/uploads/2009/09/fap2.jpg" alt="data analysis / human space flight" width="310" 
+height="150" /></a></p>
+<p>Help NASA get astronauts to the Moon and Mars. Future space exploration will challenge NASA to answer many critical 
+questions about how humans can live and work for extended missions away from Earth. Currently, researchers are working 
+to reduce the effects of space flight on the human body. To accomplish this&#8230;</p>
+
+    <p class="respond"><a href="http://spacehack.org/project/fap" rel="bookmark" title="">Check it out &#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<div class="hentry post-114 last">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/vision-workbench" rel="bookmark" title="Vision Workbench">Vision 
+Workbench</a></h1>
+
+<div class="entry-summary">
+    <p><a href="/project/vision-workbench"><img class="alignnone size-medium wp-image-117" 
+src="/wp-content/uploads/2008/11/visionworkbench2.jpg" alt="open source / imaging" width="310" height="150" /></a></p>
+<p>The VW is a general purpose image processing and computer vision library developed by the Autonomous Systems and 
+Robotics (ASR) Area in the Intelligent Systems Division at the NASA Ames Research Center. VW has been publically 
+released under the terms of the NASA Open Source Software Agreement. They are&#8230;</p>
+
+    <p class="respond"><a href="http://spacehack.org/project/vision-workbench" rel="bookmark" title="">Check it out 
+&#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<br clear='left'><div class="hentry post-745">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/telescope-makers-workshop" rel="bookmark" title="Telescope Makers&#8217; 
+Workshop">Telescope Makers&#8217; Workshop</a></h1>
+
+<div class="entry-summary">
+    <p><a href="/project/telescope-makers-workshop"><img class="alignnone size-full wp-image-746" title="" 
+src="/wp-content/uploads/2009/08/telescopemakers2.jpg" alt="education / telescopes" width="310" height="150" /></a></p>
+<p>Open to all ages and free to attend, the Telescope Makers’ Workshop is an all-volunteer group committed to helping 
+people build their own telescopes. Bring your interest and curiosity, and they&#8217;ll provide knowledge, enthusiasm, 
+and advice to help you complete your telescope-making projects. No experience necessary&#8230;</p>
+
+    <p class="respond"><a href="http://spacehack.org/project/telescope-makers-workshop" rel="bookmark" title="">Check 
+it out &#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<div class="hentry post-359">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/open-luna-foundation" rel="bookmark" title="Open Luna Foundation">Open Luna 
+Foundation</a></h1>
+
+<div class="entry-summary">
+    <p><a href="/project/open-luna-foundation"><img class="alignnone size-medium wp-image-361" title="open source / 
+lunar" src="/wp-content/uploads/2009/01/openluna2.jpg" alt="" width="310" height="150" /></a></p>
+<p>A stepped program of robotic missions that seek to return mankind to the lunar surface, and to do it in such a way 
+that it is accessible to everyone. The Open Luna Foundation is open source and invites everyone (hardware providers, 
+writers, wiki-editors, designers, etc.) to contribute and share what you want to do and&#8230;</p>
+
+    <p class="respond"><a href="http://spacehack.org/project/open-luna-foundation" rel="bookmark" title="">Check it out 
+&#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<div class="hentry post-528 last">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/mars-student-imaging-project" rel="bookmark" title="Mars Student Imaging 
+Project">Mars Student Imaging Project</a></h1>
+
+<div class="entry-summary">
+    <p><a href="/project/mars-student-imaging-project"><img class="alignnone size-medium wp-image-531" title="" 
+src="/wp-content/uploads/2009/02/msip2.jpg" alt="education / mars" width="310" height="150" /></a></p>
+<p>NASA and Arizona State University’s Mars Education Program is offering students in the U.S. the opportunity to be 
+involved in authentic Mars research by participating in the Mars Student Imaging Project (MSIP). Teams of students in 
+grades 5 through college sophomore level will have the opportunity to work with scientists&#8230;</p>
+
+    <p class="respond"><a href="http://spacehack.org/project/mars-student-imaging-project" rel="bookmark" 
+title="">Check it out &#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<br clear='left'><div class="hentry post-240">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/dashlink" rel="bookmark" title="DASHlink">DASHlink</a></h1>
+
+<div class="entry-summary">
+    <p><a href="/project/dashlink"><img class="alignnone size-medium wp-image-241" title="" 
+src="/wp-content/uploads/2008/11/dashlink2.jpg" alt="data analysis / aeronautics" width="310" height="150" /></a></p>
+<p>A virtual laboratory for scientists and engineers to disseminate results and collaborate on research problems in 
+health management technologies for aeronautics systems. DASHlink (Discovery in Aeronautics Systems Health) supports 
+innovation by allowing researchers to overcome the limitations&#8230;</p>
+
+    <p class="respond"><a href="http://spacehack.org/project/dashlink" rel="bookmark" title="">Check it out 
+&#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<div class="hentry post-274">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/celestia" rel="bookmark" title="Celestia">Celestia</a></h1>
+
+<div class="entry-summary">
+    <p><a href="http://spacehack.org/project/celestia"><img class="alignnone size-medium wp-image-275" title="" 
+src="http://spacehack.org/wp-content/uploads/2008/12/celestia2.jpg" alt="open source / visualization" width="310" 
+height="150" /></a></p>
+<p>An open-source, photo-realistic, real-time, three-dimensional viewing of the solar system, the galaxy and the 
+universe. Celestia is an easy to use, freely-distributed, multi-platform, open source, software package which has 
+become a valuable tool for astronomy education. Used in homes, schools&#8230;</p>
+
+    <p class="respond"><a href="http://spacehack.org/project/celestia" rel="bookmark" title="">Check it out 
+&#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<div class="hentry post-65 last">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/iss-earthkam" rel="bookmark" title="ISS EarthKAM">ISS EarthKAM</a></h1>
+
+<div class="entry-summary">
+    <p><a href="http://spacehack.org/project/iss-earthkam"><img class="alignnone size-medium wp-image-68" 
+src="http://spacehack.org/wp-content/uploads/2008/11/issearthkam2.jpg" alt="education / earth" width="310" height="150" 
+/></a></p>
+<p>A NASA education program that provides unique, high quality photographs of our planet taken by middle school 
+students. Using the web to direct a digital camera on space flights and the International Space Station, select middle 
+schools request images based upon their classroom investigations. Teachers, school&#8230;</p>
+
+    <p class="respond"><a href="http://spacehack.org/project/iss-earthkam" rel="bookmark" title="">Check it out 
+&#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<br clear='left'><div class="hentry post-110">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/gwwsc" rel="bookmark" title="Great World Wide Star Count">Great World Wide 
+Star Count</a></h1>
+
+<div class="entry-summary">
+    <p><a href="http://spacehack.org/project/gwwsc"><img class="alignnone size-medium wp-image-111" 
+src="http://spacehack.org/wp-content/uploads/2008/11/gwwsc2.jpg" alt="education / stars" width="310" height="150" 
+/></a></p>
+<p>This project was designed to encourage students, families and interested citizens to record observations of the 
+quality of their nighttime sky (including specific constellations &#8211; Cygnus in the Northern Hemisphere, 
+Sagittarius in the Southern Hemisphere) and share that data with others via the GWWSC website. Interested&#8230;</p>
+
+    <p class="respond"><a href="http://spacehack.org/project/gwwsc" rel="bookmark" title="">Check it out &#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<div class="hentry post-137">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/planetquest-collaboratory" rel="bookmark" title="PlanetQuest 
+Collaboratory">PlanetQuest Collaboratory</a></h1>
+
+<div class="entry-summary">
+    <p><a href="http://spacehack.org/project/planetquest-collaboratory"><img class="alignnone size-medium wp-image-138" 
+src="http://spacehack.org/wp-content/uploads/2008/11/planetquest2.jpg" alt="data analysis / astronomy" width="310" 
+height="150" /></a></p>
+<p>The PlanetQuest Collaboratory will turn your computer (Mac, PC, Linux, and others) into a virtual astronomical 
+observatory that you can use to make and share real scientific discoveries. Our telescopes are focused on extremely 
+dense star regions, such as the center of the galaxy in Sagittarius, and when an observing run&#8230;</p>
+
+    <p class="respond"><a href="http://spacehack.org/project/planetquest-collaboratory" rel="bookmark" title="">Check 
+it out &#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<div class="hentry post-509 last">
+<h1 class="entry-title">
+    <a href="http://spacehack.org/project/night-sky-network" rel="bookmark" title="Night Sky Network">Night Sky 
+Network</a></h1>
+
+<div class="entry-summary">
+    <p><a href="http://spacehack.org/project/night-sky-network"><img class="size-medium wp-image-523 alignnone" 
+title="" src="http://spacehack.org/wp-content/uploads/2009/02/nightsky2.jpg" alt="event / astronomy" width="310" 
+height="150" /></a></p>
+<p>A network of amateur astronomy clubs around the U.S. who hold events for the public (e.g. star parties, planetarium 
+shows, classrooms, etc.). The Night Sky Network is a nationwide coalition that regularly shares their knowledge, time, 
+and telescopes to bring amazing aspects of astronomy to you (it&#8217;s essentially a&#8230;</p>
+
+    <p class="respond"><a href="http://spacehack.org/project/night-sky-network" rel="bookmark" title="">Check it out 
+&#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<br clear='left'></div>
+<!-- /.hfeed -->
+
+<div class="nav pagination">
+    <ul>
+        <li><a href = "previous">&laquo; Previous Projects</a></li>
+    </ul>
+</div> 
+<!-- /.nav.pagination -->
+
+<div class="footer">
+    <ul class="nav">
+                <li class="search">
+        	<form method="get" action="http://spacehack.org/">
+        		<input onfocus="if (this.placeholder == 'Search') {this.placeholder  = '';}" onblur="if 
+(this.placeholder  == '') {this.placeholder  = 'Search';}" class="search" type="search" name="s" value="" 
+placeholder="Search">
+        		<input class="button" type="submit" value="Search">
+            	</form>
+        </li>
+        <li><a href="/about">About Spacehack</a></li>
+        <li><a href="/guidelines">Community Guidelines</a></li>
+        <li><a href="mailto:ariel@spacehack.org">Contact</a></li>
+        <li><a href="/disclaimer">Disclaimer</a></li>
+    </ul>
+	<p class="credit">
+    	
+	</p>
+		<script type='text/javascript' 
+src='http://spacehack.org/wp-includes/js/admin-bar.js?ver=3.4.1'></script>
+<script type='text/javascript' 
+src='http://spacehack.org/wp-content/plugins/contact-form-7/includes/js/jquery.form.js?ver=3.09'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = 
+{"loaderUrl":"http:\/\/spacehack.org\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending 
+...","cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' 
+src='http://spacehack.org/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.2'></script>
+	<script type="text/javascript">
+		(function() {
+			var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new 
+RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+			request = true;
+
+			b[c] = b[c].replace( rcs, '' );
+			b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+		}());
+	</script>
+			<div id="wpadminbar" class="nojq nojs" role="navigation">
+			<div class="quicklinks">
+				<ul id="wp-admin-bar-root-default" class="ab-top-menu">
+		<li id="wp-admin-bar-wp-logo" class="menupop"><a class="ab-item" tabindex="10" aria-haspopup="true" 
+href="http://spacehack.org/wp-admin/about.php" title="About WordPress"><span class="ab-icon"></span></a><div 
+class="ab-sub-wrapper"><ul id="wp-admin-bar-wp-logo-default" class="ab-submenu">
+		<li id="wp-admin-bar-about" class=""><a class="ab-item" tabindex="10" 
+href="http://spacehack.org/wp-admin/about.php">About WordPress</a>		</li></ul><ul 
+id="wp-admin-bar-wp-logo-external" class="ab-sub-secondary ab-submenu">
+		<li id="wp-admin-bar-wporg" class=""><a class="ab-item" tabindex="10" 
+href="http://wordpress.org/">WordPress.org</a>		</li>
+		<li id="wp-admin-bar-documentation" class=""><a class="ab-item" tabindex="10" 
+href="http://codex.wordpress.org/">Documentation</a>		</li>
+		<li id="wp-admin-bar-support-forums" class=""><a class="ab-item" tabindex="10" 
+href="http://wordpress.org/support/">Support Forums</a>		</li>
+		<li id="wp-admin-bar-feedback" class=""><a class="ab-item" tabindex="10" 
+href="http://wordpress.org/support/forum/requests-and-feedback">Feedback</a>		</li></ul></div>		
+</li>
+		<li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item" tabindex="10" aria-haspopup="true" 
+href="http://spacehack.org/wp-admin/">Spacehack</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-site-name-default" 
+class="ab-submenu">
+		<li id="wp-admin-bar-dashboard" class=""><a class="ab-item" tabindex="10" 
+href="http://spacehack.org/wp-admin/">Dashboard</a>		</li></ul><ul id="wp-admin-bar-appearance" class=" 
+ab-submenu">
+		<li id="wp-admin-bar-themes" class=""><a class="ab-item" tabindex="10" 
+href="http://spacehack.org/wp-admin/themes.php">Themes</a>		</li>
+		<li id="wp-admin-bar-customize" class=" hide-if-no-customize"><a class="ab-item" tabindex="10" 
+href="http://spacehack.org/wp-admin/customize.php?url=http%3A%2F%2Fspacehack.org%2F">Customize</a>		
+</li></ul></div>		</li>
+		<li id="wp-admin-bar-updates" class=""><a class="ab-item" tabindex="10" 
+href="http://spacehack.org/wp-admin/update-core.php" title="1 Plugin Update, 2 Theme Updates"><span 
+class="ab-icon"></span><span class="ab-label">3</span></a>		</li>
+		<li id="wp-admin-bar-comments" class=""><a class="ab-item" tabindex="10" 
+href="http://spacehack.org/wp-admin/edit-comments.php" title="4 comments awaiting moderation"><span 
+class="ab-icon"></span><span id="ab-awaiting-mod" class="ab-label awaiting-mod pending-count count-4">4</span></a>		
+</li>
+		<li id="wp-admin-bar-new-content" class="menupop"><a class="ab-item" tabindex="10" aria-haspopup="true" 
+href="http://spacehack.org/wp-admin/post-new.php" title="Add New"><span class="ab-icon"></span><span 
+class="ab-label">New</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-new-content-default" 
+class="ab-submenu">
+		<li id="wp-admin-bar-new-post" class=""><a class="ab-item" tabindex="10" 
+href="http://spacehack.org/wp-admin/post-new.php">Post</a>		</li>
+		<li id="wp-admin-bar-new-media" class=""><a class="ab-item" tabindex="10" 
+href="http://spacehack.org/wp-admin/media-new.php">Media</a>		</li>
+		<li id="wp-admin-bar-new-link" class=""><a class="ab-item" tabindex="10" 
+href="http://spacehack.org/wp-admin/link-add.php">Link</a>		</li>
+		<li id="wp-admin-bar-new-page" class=""><a class="ab-item" tabindex="10" 
+href="http://spacehack.org/wp-admin/post-new.php?post_type=page">Page</a>		</li>
+		<li id="wp-admin-bar-new-user" class=""><a class="ab-item" tabindex="10" 
+href="http://spacehack.org/wp-admin/user-new.php">User</a>		</li></ul></div>		</li></ul><ul 
+id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
+		<li id="wp-admin-bar-search" class=" admin-bar-search"><div class="ab-item ab-empty-item" 
+tabindex="-1"><form action="http://spacehack.org/" method="get" id="adminbarsearch"><input class="adminbar-input" 
+name="s" id="adminbar-search" tabindex="10" type="text" value="" maxlength="150" /><input type="submit" 
+class="adminbar-button" value="Search"/></form></div>		</li>
+		<li id="wp-admin-bar-my-account" class="menupop with-avatar"><a class="ab-item" tabindex="10" 
+aria-haspopup="true" href="http://spacehack.org/wp-admin/profile.php" title="My Account">Howdy, basilleaf<img alt='' 
+src='http://0.gravatar.com/avatar/6cbed328a8f5f00b49e313470635fc20?s=16&amp;d=identicon&amp;r=G' class='avatar 
+avatar-16 photo' height='16' width='16' /></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-user-actions" class=" 
+ab-submenu">
+		<li id="wp-admin-bar-user-info" class=""><a class="ab-item" tabindex="-1" 
+href="http://spacehack.org/wp-admin/profile.php"><img alt='' 
+src='http://0.gravatar.com/avatar/6cbed328a8f5f00b49e313470635fc20?s=64&amp;d=identicon&amp;r=G' class='avatar 
+avatar-64 photo' height='64' width='64' /><span class='display-name'>basilleaf</span></a>		</li>
+		<li id="wp-admin-bar-edit-profile" class=""><a class="ab-item" tabindex="10" 
+href="http://spacehack.org/wp-admin/profile.php">Edit My Profile</a>		</li>
+		<li id="wp-admin-bar-logout" class=""><a class="ab-item" tabindex="10" 
+href="http://spacehack.org/wp-login.php?action=logout&#038;_wpnonce=d0b6abcb21">Log Out</a>		
+</li></ul></div>		</li></ul>			</div>
+		</div>
+
+		</div>
+<!-- /.footer -->
+</body>
+</html>
+

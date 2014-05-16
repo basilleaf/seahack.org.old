@@ -1,0 +1,60 @@
+<?php add_body_class("projectindex"); ?>
+<?php get_header(); ?>
+
+<?php if (have_posts()) : ?>
+<div class="hfeed">
+<?php
+    $post_count = 0; # This is used to put a forced break after every third post
+    while (have_posts()) :
+        the_post();
+        $post_count++; ?>
+<div class="hentry post-<?php the_ID(); ?><?php if (0 === $post_count % 3) { ?> last<?php  } ?>">
+<h1 class="entry-title">
+    <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php
+     the_title()
+?></a></h1>
+
+<div class="entry-summary">
+<?php
+    # Render the thumbnail:
+    $values = get_post_custom_values("thumbnail");
+	if (isset($values[0])) {
+?>
+    <p class="thumbnail">
+        <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">
+            <img src="<?php $values = get_post_custom_values("thumbnail"); echo $values[0]; ?>" alt="">
+        </a>
+    </p>
+<?php } ?>
+    <?php the_excerpt(); ?>
+
+    <p class="respond"><a href="<?php the_permalink() ?>" rel="bookmark" title="">Check it out &#187;</a></p>
+</div>
+</div>
+<!-- /.hentry -->
+<?php
+    if(0 === $post_count % 3) {
+        echo "<br clear='left'>";
+    }
+
+    endwhile; ?>
+</div>
+<!-- /.hfeed -->
+
+<div class="nav pagination">
+    <ul>
+        <li><?php next_posts_link('&laquo; Previous Projects') ?></li>
+	    <li><?php previous_posts_link('Current Projects &raquo;') ?></li>
+    </ul>
+</div>
+<!-- /.nav.pagination -->
+<?php else : ?>
+
+<h1>Not Found</h1>
+<p>Sorry, but you are looking for something that isn't here.</p>
+
+<?php include (TEMPLATEPATH . "/searchform.php"); ?>
+
+<?php endif; ?>
+
+<?php get_footer(); ?>

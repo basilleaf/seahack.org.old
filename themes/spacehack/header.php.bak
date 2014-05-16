@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+
+<head>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<meta charset="<?php bloginfo('charset'); ?>">
+<title><?php
+    wp_title(" · ", true, 'right');
+    bloginfo('name');
+?></title>
+
+
+<!-- Data Profiles -->
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="profile" href="http://microformats.org/profiles/hcard">
+<link rel="profile" href="http://microformats.org/profiles/hatom">
+
+<!-- Stylesheets  -->
+<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/reset/reset-min.css">
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" media="screen, projection">
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_directory'); ?>/spacehack_excerpts.css" media="screen, projection">
+
+<!-- js -->
+
+
+
+
+<!--[if IE 8]>
+<style type="text/css">
+    .cats_tags ul:first-child + ul,  /** tags row **/
+       .cats_tags ul.tags { 
+        clear:both;
+        margin:0; padding:0;
+        margin-top:5px;
+        display:block;
+    }    
+</style>
+<![endif]-->
+<!--[if IE 9]>
+<style type="text/css">
+    .cats_tags ul:nth-child(2) { /** tags row **/
+        clear:both;
+        margin:0; padding:0;
+        margin-top:-17px;
+        display:block;
+    }    
+</style>
+<![endif]-->
+
+
+
+<!-- Syndication -->
+<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> Feed" href="<?php bloginfo('rss2_url'); ?>">
+
+<!-- Decentralization -->
+<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
+
+<!-- More -->
+<?php wp_enqueue_script("jquery"); ?>
+<?php wp_head(); ?>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/main.js"></script>
+
+</head>
+
+<body class="org-spacehack<?php
+    if(0 < stripos($_SERVER["SERVER_NAME"], ".dev")) {
+        echo " devel";
+    } ?><?php
+    echo " " . get_body_classes(); ?>">
+
+    <ul class="subscribe">
+        <li><img src = "<?php bloginfo('template_url'); ?>/images/spacehack_twitter.jpg" alt = ""><a class="twitter" href="http://twitter.com/spacehack" title="Follow Spacehack on Twitter">follow @spacehack</a></li>
+        <li><img src = "<?php bloginfo('template_url'); ?>/images/spacehack_envelope.jpg" alt = ""><a class="submit-hack" href="http://spacehack.org/submit">submit a project</a></li>
+    </ul>
+    <!-- /.subscribe -->
+
+    <div class="header">
+        <h1>
+            <a href="<?php echo get_settings('home'); ?>/" title="Home"><?php
+                bloginfo('name');
+            ?></a>
+        </h1>
+        <p class="description"><?php
+            bloginfo('description');
+        ?></p>
+
+        <!-- p class="submit">
+            Created or know of a participatory space project?
+            <a class="submit-hack" href="http://spacehack.org/submit">Submit a new Project</a>
+        </p -->
+
+
+    	<div class="nav">
+    	    <ul>
+    		<!-- li><a class="home" href="<?php /* echo get_settings('home'); */  ?>/" title="Return to the the frontpage">Home</a></li -->
+            <li class = "sh_competition <?php the_nav_style("competition"); ?> "><a href="/category/competition" >Competition</a></li>
+    		<li class = "sh_open-source <?php the_nav_style("open-source"); ?>"><a href="/category/open-source">Open Source</a></li>
+    		<li class = "sh_education  <?php the_nav_style("education"); ?>"><a href="/category/education">Education</a></li>
+            <li class = "sh_distributed-computing <?php the_nav_style("distributed-computing"); ?>" ><a href="/category/distributed-computing">Distributed Computing</a></li>
+    		<li class = "sh_data-analysis <?php the_nav_style("data-analysis"); ?>"><a href="/category/data-analysis" >Data Analysis</a></li>
+    	    </ul>
+        </div>
+        <!-- /.nav -->
+    </div>
+    <!-- /.header -->

@@ -1,0 +1,82 @@
+<?php
+    add_body_class("projectindex");
+    add_body_class("archive");
+    get_header();
+    rewind_posts();
+?>
+<?php
+	query_posts($query_string.'&posts_per_page=24');
+	if (have_posts()) : ?>
+      <div class="hfeed">
+ 	  <?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
+
+      <h1 class="archive-title"><?php /* If this is a category archive */ if (is_category()) { ?>
+		Category: <?php single_cat_title(); ?>
+ 	  <?php /* If this is a tag archive */ } elseif( is_tag() ) { ?>
+		Posts Tagged &#8216;<?php single_tag_title(); ?>&#8217;
+ 	  <?php /* If this is a daily archive */ } elseif (is_day()) { ?>
+		Archive for <?php the_time('F jS, Y'); ?>
+ 	  <?php /* If this is a monthly archive */ } elseif (is_month()) { ?>
+		Archive for <?php the_time('F, Y'); ?>
+ 	  <?php /* If this is a yearly archive */ } elseif (is_year()) { ?>
+		Archive for <?php the_time('Y'); ?>
+	  <?php /* If this is an author archive */ } elseif (is_author()) { ?>
+		Author Archive
+ 	  <?php /* If this is a paged archive */ } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
+		Project Archives
+ 	  <?php } ?></h1>
+
+      <?php
+          $post_count = 0; # This is used to put a forced break after every third post
+          while (have_posts()) :
+              the_post();
+              $post_count++; ?>
+      <div class="hentry post-<?php the_ID(); ?><?php if (0 === $post_count % 3) { ?> last<?php  } ?>">
+      <h2 class="entry-title">
+          <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php
+           the_title()
+      ?></a></h2>
+
+      <div class="entry-summary">
+      <?php
+          # Render the thumbnail:
+          $values = get_post_custom_values("thumbnail");
+      	if (isset($values[0])) {
+      ?>
+          <p class="thumbnail">
+              <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">
+                  <img src="<?php $values = get_post_custom_values("thumbnail"); echo $values[0]; ?>" alt="">
+              </a>
+          </p>
+      <?php } ?>
+          <?php the_excerpt(); ?>
+
+          <p class="respond"><a href="<?php the_permalink() ?>" rel="bookmark" title="">Read more &#187;</a></p>
+      </div>
+      </div>
+      <!-- /.hentry -->
+      <?php
+          if(0 === $post_count % 3) {
+              echo "<br clear='left'>";
+          }
+
+          endwhile; ?>
+      </div>
+      <!-- /.hfeed -->
+
+      <div class="nav pagination">
+          <ul>
+              <li><?php next_posts_link('&laquo; Previous Projects') ?></li>
+      	    <li><?php previous_posts_link('Current Projects &raquo;') ?></li>
+          </ul>
+      </div>
+
+
+	<?php else : ?>
+
+		<h2 class="center">Not Found</h2>
+		<?php include (TEMPLATEPATH . '/searchform.php'); ?>
+
+	<?php endif; ?>
+</div>
+<?php get_footer(); ?>
