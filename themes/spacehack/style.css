@@ -21,7 +21,7 @@ body.devel {
 body {
     color: #333;
     background: #fff;
-    font: 75%/150% Helvetica, Arial, sans-serif;
+    font: 12px/18px Helvetica, Arial, sans-serif;
     width: 950px;
     margin: 0 auto;
     padding: 20px 35px 0 35px;
@@ -530,9 +530,9 @@ h1.archive-title {
         font-size: 120%;
     }
     body.projectpage .post  h1 {
-        font-size: 220%;
+    font-size: 220%;
     display:inline-block;
-    margin:20px 0px;
+    margin:70px 0px;
     margin-bottom:60px;
     width:100%;
 
@@ -585,6 +585,9 @@ h1.archive-title {
     }
     body.projectpage .entry-header img {
         margin-bottom:-35px;
+    }
+    .discussion {
+        display:none;
     }
 
 

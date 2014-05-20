@@ -56,7 +56,7 @@ div.nav {
 .excerpt p:nth-child(3) { /** excerpt text **/
   padding-top:5px;
 }
-.projectindex .hentry .respond {
+.projectindex .hentry .respond { /** read more **/
   margin:-22px 0px 25px 0px;
   z-index:99;
   height:30px;
@@ -194,7 +194,7 @@ ul.tags li a div {
     }
 
     body.projectindex .hentry {
-        font-size:45px;
+        font: 27px/38px Helvetica, Arial, sans-serif;
         width:100%;
     }
 
@@ -214,6 +214,10 @@ ul.tags li a div {
     body.projectindex ul.hfeed li.hentry {
         clear:both;
     }
+    .projectindex .hentry .respond {
+        font-size:140%;
+    }
+
 
     /** positioning the panel and the overlay links **/
     .cats_tags {
