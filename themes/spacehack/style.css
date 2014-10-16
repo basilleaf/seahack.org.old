@@ -389,6 +389,7 @@ margin-bottom: 5px;
 .discussion .comment-author {
     position: relative;
     padding-left: 65px;
+    margin-bottom:60px; /* clears avatar icon */
 }
 .discussion .comment-author p {
     margin-bottom: 10px;
